@@ -4,6 +4,7 @@ import Header from './componrnts/Header/Header';
 import Hero from './componrnts/Hero/Hero';
 import Companies from './componrnts/Companies/Companies';
 import Residencies from './componrnts/Residencies/Residencies';
+import Value1 from './componrnts/Value/Value';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       </div>
       <Companies />
       <Residencies />
+      <Value1 />
     </div>
   );
 }
