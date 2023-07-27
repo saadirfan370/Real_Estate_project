@@ -19,7 +19,7 @@ const Value1 = () => {
 
 
   return (
-    <section className="v_wrapper">
+    <section className="v_wrapper" id="Value">
       <div className="paddings innerWidth flexCenter v_container">
         {/* left side */}
         <div className="v_left">
@@ -56,7 +56,7 @@ const Value1 = () => {
                         }
                       </AccordionItemState>
                       <div className="flexCenter icon">{item.icon}</div>
-                      <spna className="primaryText textHandle">{item.heading}</spna>
+                      <span className="primaryText textHandle">{item.heading}</span>
                       <div className="flexCenter icon">
                         <MdOutlineArrowDropDown size={20} />
                       </div>

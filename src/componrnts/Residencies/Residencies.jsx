@@ -7,7 +7,7 @@ import { sliderSetting } from "../../utils/common";
 
 const Residencies = () => {
   return (
-    <section className="r-wrapper">
+    <section className="r-wrapper"id="Residencies">
       <div className="paddings innerWidth r_container">
         <div className="r_head flexColStart">
           <span className="orangeText">Best Choices</span>

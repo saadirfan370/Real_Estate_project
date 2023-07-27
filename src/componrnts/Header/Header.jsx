@@ -7,10 +7,18 @@ import OutsideClickHandler from "react-outside-click-handler";
 
 const Header = () => {
   const [menuOpen,setmenuOpen] = useState(false)
+  console.log(menuOpen);
 
   const getMenuStyles = (menuOpen) =>{
     if(document.documentElement.clientWidth <= 800){
       return {right: !menuOpen && "-100%"}
+    }
+  }
+
+  const outClick = () =>{
+    if(menuOpen){
+      setmenuOpen(false)
+      console.log("saad");
     }
   }
 
@@ -21,21 +29,21 @@ const Header = () => {
         {/* <img src="./logo.png" alt="" width={100} /> */}
 
       <OutsideClickHandler 
-        onOutsideClick={()=>setmenuOpen(false)}
+        onOutsideClick={()=> outClick()} 
       >
         <div className="flexCenter h-menu" style={getMenuStyles(menuOpen)}>
-          <a href=""> Residencies</a>
-          <a href="">Our Value</a>
-          <a href="">Contact Us</a>
-          <a href="">Get Started</a>
+          <a href="#Residencies"> Residencies</a>
+          <a href="#Value">Our Value</a>
+          <a href="#Contact">Contact Us</a>
+          <a href="#Get">Get Started</a>
           <button className="button">
-            <a href="">Contact</a>
+            <a href="#Contact1">Contact</a>
           </button>
         </div>
-      </OutsideClickHandler>
         <div className="menu_icon" onClick={() => setmenuOpen((prev) => !prev)}>
           <BiMenuAltRight size={30} />
         </div>
+      </OutsideClickHandler>
       </div>
     </section>
   );

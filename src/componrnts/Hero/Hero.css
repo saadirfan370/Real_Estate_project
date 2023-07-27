@@ -96,4 +96,13 @@
     .stat>:nth-child(2){
         font-size: 0.8rem;
     }
+    .search_bar .button{
+        padding: 0.6rem .8rem;
+    }
+}
+
+@media (max-width:320px) {
+    .search_bar input{
+        width: 100px;
+    }
 }
