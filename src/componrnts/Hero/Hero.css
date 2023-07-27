@@ -65,4 +65,19 @@
 }
 .stat>:nth-child(1)>:last-child{
     color: orange;
+} 
+
+
+@media (max-width:640px) {
+    .hero_container{
+        margin-top: 2rem;
+    }
+    .hero_title{
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+    .image_container{
+        width: 95%;
+        height: 25rem;
+    }
 }
