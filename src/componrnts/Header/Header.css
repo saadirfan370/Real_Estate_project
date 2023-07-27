@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+
+
 .h-wrapper{
     /* background-color: var(--black); */
     color: #fff;
@@ -17,6 +20,12 @@
 }
 .menu_icon{
     display: none;
+}
+.logo{
+    /* text-transform: uppercase; */
+    font-size: 30px;
+    font-family: 'Mate SC', serif;
+    font-weight: 600;
 }
 @media (max-width:768px) {
     .menu_icon{

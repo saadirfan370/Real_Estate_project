@@ -52,3 +52,22 @@
     color: #fff;
     scale: 0.8;
 }
+
+@media (max-width:1024px) {
+    .c_container{
+        flex-direction: column;
+    }
+    .c_right{
+        justify-content: center;
+    }
+    .contactModes{
+        width: 100%;
+    }
+    .row{
+        flex-direction: column;
+        width: 100%;
+    }
+    .mode{
+        width: 100%;
+    }
+}

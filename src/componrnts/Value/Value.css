@@ -40,3 +40,19 @@
 .accordionButton .primaryText{
     font-size: 1.1rem;
 }
+@media (max-width:1024px) {
+    .v_container{
+        flex-direction: column;
+    }
+}
+@media (max-width:768px) {
+    .accordionButton .primaryText{
+        font-size: 0.8rem;
+    }
+    .accordionButton{
+        padding: 0.5rem;
+    }
+    .textHandle{
+        width: 68%;
+    }
+}

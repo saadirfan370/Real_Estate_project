@@ -10,3 +10,12 @@
     font-weight: 500;
     
 }
+@media (max-width:768px) {
+    .f_container{
+        justify-content: center;
+    }
+    .f_container>div{
+        align-items: center !important;
+        text-align: center;
+    }
+}

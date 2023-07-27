@@ -56,7 +56,7 @@ const Value1 = () => {
                         }
                       </AccordionItemState>
                       <div className="flexCenter icon">{item.icon}</div>
-                      <spna className="primaryText">{item.heading}</spna>
+                      <spna className="primaryText textHandle">{item.heading}</spna>
                       <div className="flexCenter icon">
                         <MdOutlineArrowDropDown size={20} />
                       </div>

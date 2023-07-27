@@ -17,7 +17,8 @@ const Header = () => {
   return (
     <section className="h-wrapper">
       <div className="flexCenter paddings innerWidth h-container">
-        <img src="./logo.png" alt="" width={100} />
+        <span className="logo">Dream <span className="logo" style={{color:"#5370e1"}}>City</span></span>
+        {/* <img src="./logo.png" alt="" width={100} /> */}
 
       <OutsideClickHandler 
         onOutsideClick={()=>setmenuOpen(false)}
